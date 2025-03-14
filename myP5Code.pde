@@ -1,3 +1,4 @@
+ var ChillImage = loadImage("https://cdn.glitch.global/28530947-e2be-4736-91d2-ec1c47a5fb78/2cbad340-bdaa-4ae1-abe5-9ae09f2c5fef.image.png?v=1741875231498");
 setup = function() {
     size(400, 600); 
     background(190,198,240);
@@ -23,8 +24,10 @@ setup = function() {
   ellipse(330,170 + i,100,100)
   ellipse(315,137,30,30)
   ellipse(345,137,30,30)
-  i += 50;
+  i += 10;
   }
+  
+ 
   
   fill(255,250,250)
   ellipse(30,267,100,100)
@@ -46,5 +49,8 @@ setup = function() {
   ellipse(310,237,30,30)
   ellipse(340,237,30,30)
 };
+ draw = function(){
+  image(ChillImage, 200,-10,120,120)
+  }
 
 
