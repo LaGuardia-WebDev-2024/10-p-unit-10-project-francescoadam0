@@ -24,10 +24,18 @@ setup = function() {
   ellipse(330,170 + i,100,100)
   ellipse(315,137,30,30)
   ellipse(345,137,30,30)
-  i += 10;
+  i += 100;
   }
   
+  for (var i = 25; i < 405 ; i +=20){
+  text("😁😁😁😁😁😁😁😁😁😁😁😁😁😁", 50, i);
+  }
  
+ // for (start; how long; change)
+ for (var x=0; x<400; x+=20){
+ line (0,x,400,x);
+ }
+
   
   fill(255,250,250)
   ellipse(30,267,100,100)
